@@ -1,29 +1,27 @@
 # Julia Documentation README
 
-Julia's documentation is written in Markdown. A reference of all supported syntax can be found in the [manual](https://docs.julialang.org/en/v1/stdlib/Markdown/). All documentation can be found in the Markdown files in `doc/src/` and the docstrings in Julia source files in `base/` and `stdlib/`.
+La documentación de Julia está escrita en Markdown. Una guía para toda la síntaxis permitida se puede encontrar en la sección del [manual](https://docs.julialang.org/en/v1/stdlib/Markdown/). Toda la documentación se puede encontrar en archivos de Markdown en `doc/src` y en los docstrings de los archivos de Julia en `base/` y en `stdlib/` .
 
 ## Requirements
 
-This documentation is built using the [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) package.
+La documentación se construye usando el paquete de [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl).
 
-All dependencies are automatically installed into a sandboxed package directory in `doc/deps/` to avoid interfering with user-installed packages.
+Todas las dependencias se instalan automáticamente en un directorio de paquetes autocontenido en `doc/deps/` para evitar interferir los paquetes de los usuarios.
 
 ## Building
 
-To build Julia's documentation run
-
+Para construir la documentación de Julia corra
 ```sh
 $ make docs
 ```
 
 from the root directory. This will build the HTML documentation and output it to the `doc/_build/` folder.
+desde su directorio raíz. Esto construye la documentación HTML y lo escribe en el folder `doc/_build/.`
 
 ## Testing
 
-To run the doctests found in the manual run
-
+Para correr los doctests del manual corra
 ```sh
 $ make -C doc doctest=true
 ```
-
-from the root directory.
+desde el directorio raíz.
