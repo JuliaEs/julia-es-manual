@@ -48,7 +48,7 @@ R, puede que al principio encuentre que la actuación de Julia no sea intuitiva.
 lento, recomendamos leer la sección [Consejos de rendimiento](@ ref man-performance-tips) antes de intentar algo
 más. Una vez que comprenda cómo funciona Julia, es fácil escribir código que es casi tan rápido como C.
 
-Julia presenta escritura opcional, de envío múltiple y buen rendimiento, logrado mediante inferencia de tipos
+Julia presenta una escritura opcional, de envío múltiple y de buen rendimiento, logrado mediante inferencia de tipos
 y [compilación just-in-time (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation),
 implementado usando [LLVM](https://en.wikipedia.org/wiki/Low_Level_Virtual_Machine). Es multi-paradigma,
 combinando características de programación imperativa, funcional y orientada a objetos. Julia proporciona
@@ -59,7 +59,7 @@ idiomas, incluido [Lisp](https://en.wikipedia.org/wiki/Lisp_ (programación_lang
 [Python](https://en.wikipedia.org/wiki/Python_ (lenguaje_programación)), [Lua](https://en.wikipedia.org/wiki/Lua_ (lenguaje_programación)),
 y [Ruby](https://en.wikipedia.org/wiki/Ruby_ (programación_language)).
 
-Las divergencias más significativas de Julia en comparasión a los lenguajes dinámicos típicos son:
+Las divergencias más significativas de Julia en comparación a los lenguajes dinámicos típicos son:
 
   * El lenguaje central impone muy poco; Julia Base y la biblioteca estándar están escritas en Julia mismo, incluyendo
     operaciones primitivas como aritmética de enteros
